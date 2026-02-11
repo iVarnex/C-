@@ -24,8 +24,7 @@ int main() {
     // A diferencia de Python, la condición DEBE estar entre paréntesis ().
     // El bloque de código que se ejecuta DEBE estar entre llaves {}.
 
-    std::cout << "
---- BUCLE for ---" << std::endl;
+    std::cout << std::endl << "--- BUCLE for ---" << std::endl;
     // El bucle `for` es ideal para repetir una acción un número conocido de veces.
     // Su estructura es: for (inicialización; condición; incremento) { ... }
 
@@ -39,8 +38,7 @@ int main() {
 
     // Esto es equivalente a `for i in range(5):` en Python.
 
-    std::cout << "
---- BUCLE while ---" << std::endl;
+    std::cout << std::endl << "--- BUCLE while ---" << std::endl;
     // El bucle `while` repite un bloque de código mientras una condición sea verdadera.
 
     int contador = 3;
@@ -54,8 +52,7 @@ int main() {
     // --- BUCLE do-while (una variante menos común) ---
     // Es similar al `while`, pero garantiza que el bloque de código se ejecute al menos una vez,
     // porque la condición se evalúa al final.
-    std::cout << "
---- BUCLE do-while ---" << std::endl;
+    std::cout << std::endl << "--- BUCLE do-while ---" << std::endl;
     int opcion;
     do {
         std::cout << "Esto se ejecuta al menos una vez. Ingresa 0 para salir: ";
